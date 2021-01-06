@@ -2,7 +2,7 @@
 using UnityEngine;
 
 public class TubeController : MonoBehaviour
-{
+{ public float finishPosX;
     private Rigidbody2D _rigidbody2D;
 
     public float speed;
@@ -10,10 +10,20 @@ public class TubeController : MonoBehaviour
   
     private void Awake()
     {
-        GetComponent<Observer>().AddEventHandler("GameOver", OnGameOver);
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
-    
+
+    private void Update()
+    {
+        if (transform.position.x <= finishPosX)
+        {
+            GameObject o;
+            (o = gameObject).SetActive(false);
+            TubeFactory.TubePool.Enqueue(o);
+        }
+
+    }
+
     private void OnEnable()
     {
         _rigidbody2D.velocity = new Vector2(speed, 0);
@@ -24,10 +34,12 @@ public class TubeController : MonoBehaviour
         _rigidbody2D.velocity = new Vector2(0, 0);
     }
 
-    private void OnGameOver(object sender, EventArgs e)
+    public  void OnGameOver()
     {
         _rigidbody2D.velocity = new Vector2(0, 0);
-        Debug.Log("done");
-       // Destroy(gameObject);
+        GameObject o;
+        (o = gameObject).SetActive(false);
+        TubeFactory.TubePool.Enqueue(o);
+        //Destroy(gameObject);
     }
 }

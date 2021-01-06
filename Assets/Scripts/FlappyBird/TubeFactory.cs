@@ -6,65 +6,68 @@ using Random = UnityEngine.Random;
 
 public class TubeFactory : MonoBehaviour
 {
-    public float finishPosX;
+    public static Queue<GameObject> TubePool=new Queue<GameObject>();
+    private int _tubeNum;
+
     public float maxCreatePosY;
     public float minCreatePosY;
-  
+
     public GameObject tube;
-
-    public Queue<GameObject> tubePool;
+    public Dictionary<int, Vector3> tubeDir = new Dictionary<int, Vector3>();
     public float waitTime;
-
-    private int _tubeNum=0;
-    public Dictionary<int,Vector3>tubeDir=new Dictionary<int, Vector3>();
-    private void Start()
+    
+    public void Init()
     {
         Random.InitState(DateTime.Today.Millisecond);
-        tubePool = new Queue<GameObject>();
-        GetComponent<Observer>().AddEventHandler("GameOver", OnGameOver);
-
-        StartCoroutine(CreateTube());
+        ExecuteCreate();
     }
 
-    private IEnumerator CreateTube()
+    public void ExecuteCreate()
     {
-      
-
         var posY = Random.Range(minCreatePosY, maxCreatePosY);
         var createPos = new Vector3(0, posY, transform.position.z);
         var go = Dequeue();
         go.transform.position = createPos;
         go.SetActive(true);
         _tubeNum++;
-        tubeDir.Add(_tubeNum,go.transform.position);
-        Debug.Log(_tubeNum);
-        yield return new WaitForSeconds(waitTime);
+        tubeDir.Add(_tubeNum, go.transform.position);
         StartCoroutine(CreateTube());
-
-        while (go.transform.position.x >= finishPosX)
-            yield return null;
-      
-        go.SetActive(false);
-        Enqueue(go);
-      
     }
 
-    public void OnGameOver(object sender, EventArgs e)
+    private IEnumerator CreateTube()
+    {
+        yield return new WaitForSeconds(2);
+        while (true)
+        {
+            var posY = Random.Range(minCreatePosY, maxCreatePosY);
+            var createPos = new Vector3(0, posY, transform.position.z);
+            var go = Dequeue();
+            go.transform.position = createPos;
+            go.SetActive(true);
+            _tubeNum++;
+            Debug.Log("加入字典的"+_tubeNum);
+            tubeDir.Add(_tubeNum, go.transform.position);
+            yield return new WaitForSeconds(waitTime);
+        }
+    }
+
+    public void OnGameOver()
     {
         StopAllCoroutines();
         tubeDir.Clear();
-        _tubeNum=0;
+        //  TubePool.Clear();
+        _tubeNum = 0;
     }
 
-    private void Enqueue(GameObject tube)
+    public void Enqueue(GameObject tube)
     {
-        tubePool.Enqueue(tube);
+        TubePool.Enqueue(tube);
     }
 
     private GameObject Dequeue()
     {
-        if (tubePool.Count > 0)
-            return tubePool.Dequeue();
-        return Instantiate(tube, Vector3.zero, Quaternion.identity) as GameObject;
+        if (TubePool.Count > 0)
+            return TubePool.Dequeue();
+        return Instantiate(tube, Vector3.zero, Quaternion.identity);
     }
 }
