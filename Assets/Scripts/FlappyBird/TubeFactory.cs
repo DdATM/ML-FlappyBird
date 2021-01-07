@@ -6,7 +6,8 @@ using Random = UnityEngine.Random;
 
 public class TubeFactory : MonoBehaviour
 {
-    public static Queue<GameObject> TubePool=new Queue<GameObject>();
+    public static Queue<GameObject> TubeSavePool=new Queue<GameObject>();
+    private Queue<GameObject>tubeActivePool=new Queue<GameObject>();
     private int _tubeNum;
 
     public float maxCreatePosY;
@@ -30,6 +31,7 @@ public class TubeFactory : MonoBehaviour
         go.transform.position = createPos;
         go.SetActive(true);
         _tubeNum++;
+        tubeActivePool.Enqueue(go);
         tubeDir.Add(_tubeNum, go.transform.position);
         StartCoroutine(CreateTube());
     }
@@ -46,6 +48,7 @@ public class TubeFactory : MonoBehaviour
             go.SetActive(true);
             _tubeNum++;
             Debug.Log("加入字典的"+_tubeNum);
+            tubeActivePool.Enqueue(go);
             tubeDir.Add(_tubeNum, go.transform.position);
             yield return new WaitForSeconds(waitTime);
         }
@@ -55,19 +58,25 @@ public class TubeFactory : MonoBehaviour
     {
         StopAllCoroutines();
         tubeDir.Clear();
+       
+        foreach (GameObject o in tubeActivePool)
+        {
+            o.GetComponent<TubeController>().OnGameOver();
+        }
         //  TubePool.Clear();
         _tubeNum = 0;
     }
 
     public void Enqueue(GameObject tube)
     {
-        TubePool.Enqueue(tube);
+        tubeActivePool.Dequeue();
+        TubeSavePool.Enqueue(tube);
     }
 
     private GameObject Dequeue()
     {
-        if (TubePool.Count > 0)
-            return TubePool.Dequeue();
+        if (TubeSavePool.Count > 0)
+            return TubeSavePool.Dequeue();
         return Instantiate(tube, Vector3.zero, Quaternion.identity);
     }
 }

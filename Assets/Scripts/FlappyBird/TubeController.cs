@@ -19,7 +19,7 @@ public class TubeController : MonoBehaviour
         {
             GameObject o;
             (o = gameObject).SetActive(false);
-            TubeFactory.TubePool.Enqueue(o);
+            TubeFactory.TubeSavePool.Enqueue(o);
         }
 
     }
@@ -39,7 +39,7 @@ public class TubeController : MonoBehaviour
         _rigidbody2D.velocity = new Vector2(0, 0);
         GameObject o;
         (o = gameObject).SetActive(false);
-        TubeFactory.TubePool.Enqueue(o);
+        TubeFactory.TubeSavePool.Enqueue(o);
         //Destroy(gameObject);
     }
 }

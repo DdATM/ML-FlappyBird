@@ -14,7 +14,6 @@ public class BirdAgent : Agent
 
     public override void InitializeAgent()
     {
-        Debug.Log("初始化");
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _canOperate = true;
@@ -45,6 +44,7 @@ public class BirdAgent : Agent
             _rigidbody.velocity = new Vector2(0, 5);
             _animator.SetTrigger("jump");
         }
+        AddReward(0.01f);
     }
 
     public override void AgentReset()
@@ -55,7 +55,6 @@ public class BirdAgent : Agent
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, -14));
         _rigidbody.velocity = Vector2.zero;
         _animator.enabled = true;
-       // _canOperate = true;
         _tubeNum = 1;
         SetResetParameters();
     }
@@ -71,7 +70,6 @@ public class BirdAgent : Agent
     {
         _tubeNum++;
         AddReward(1);
-        NotificationCenter.GetInstance().PostNotification("ScoreAdd");
     }
 
 
@@ -81,8 +79,9 @@ public class BirdAgent : Agent
         _animator.enabled = false;
         _rigidbody.velocity = new Vector2(0, 0);
        
-        BroadcastMessage("OnGameOver");
-        //   _canOperate = false;
+       // BroadcastMessage("OnGameOver");
+      
+       tubeFactory.OnGameOver();
         Done();
     }
     public void SetResetParameters()
