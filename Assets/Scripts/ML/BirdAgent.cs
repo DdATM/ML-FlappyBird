@@ -30,7 +30,7 @@ public class BirdAgent : Agent
         AddVectorObs(tubeFactory.tubeDir[_tubeNum].y);
         var distance = localPosition.x - tubeFactory.tubeDir[_tubeNum].x;
         AddVectorObs(distance);
-        AddVectorObs(_rigidbody.velocity);
+        AddVectorObs(_rigidbody.velocity.y);
     }
 
     public override void AgentAction(float[] vectorAction)
