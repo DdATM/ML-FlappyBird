@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdbcabeb-39b6-4b35-af46-a53011a304ca" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.ML-FlappyBird/.idea/.idea.ML-FlappyBird.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.ML-FlappyBird/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.ML-FlappyBird/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.ML-FlappyBird/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.ML-FlappyBird/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.ML-FlappyBird/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.ML-FlappyBird/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.ML-FlappyBird/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Unity-Flappy-Bird/.idea/.idea.Unity-Flappy-Bird.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Unity-Flappy-Bird/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Unity-Flappy-Bird/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Unity-Flappy-Bird/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Unity-Flappy-Bird/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Unity-Flappy-Bird/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Unity-Flappy-Bird/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Unity-Flappy-Bird/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Unity-Flappy-Bird/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Animation/Clip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Animation/Clip/bird_fly.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Animation/Clip/bird_fly.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Animation/Clip/bird_jump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Animation/Clip/bird_jump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Animation/Controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Animation/Controller/bird_fly.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Animation/Controller/bird_fly.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Animation/tube.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Animation/tube.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Animation/tube_move.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Animation/tube_move.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/AgentEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/AgentEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/BehaviorParametersEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/BehaviorParametersEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/BrainParametersDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/BrainParametersDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/DemonstrationDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/DemonstrationDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/DemonstrationImporter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/DemonstrationImporter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/ResetParameterDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/ResetParameterDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/DemonstrationTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/DemonstrationTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/DiscreteActionOutputApplierTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/DiscreteActionOutputApplierTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/EditModeTestActionMasker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/EditModeTestActionMasker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/EditModeTestInternalBrainTensorApplier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/EditModeTestInternalBrainTensorApplier.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/EditModeTestInternalBrainTensorGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/EditModeTestInternalBrainTensorGenerator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/MLAgentsEditModeTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/MLAgentsEditModeTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/MultinomialTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/MultinomialTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/RandomNormalTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/RandomNormalTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/RayPerceptionTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/RayPerceptionTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/Sensor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/Sensor/RayPerceptionSensorTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/Sensor/RayPerceptionSensorTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/Sensor/StackingSensorTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/Sensor/StackingSensorTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/Sensor/VectorSensorTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/Sensor/VectorSensorTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/Sensor/WriterAdapterTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/Sensor/WriterAdapterTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/StandaloneBuildTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/StandaloneBuildTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/TensorUtilsTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/TensorUtilsTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/TimerTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/TimerTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/UtilitiesTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/Tests/UtilitiesTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/UnityColors.colors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Editor/UnityColors.colors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/JSON.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/JSON/scoreboard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/JSON/scoreboard.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/LitJson.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/LitJson.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/Grpc.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/Grpc.Core.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/System.Interactive.Async.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/System.Interactive.Async.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/link.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/link.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/linux.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/linux/native.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/linux/native/libgrpc_csharp_ext.x64.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/linux/native/libgrpc_csharp_ext.x64.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/linux/native/libgrpc_csharp_ext.x86.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/linux/native/libgrpc_csharp_ext.x86.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/osx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/osx/native.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/osx/native/libgrpc_csharp_ext.x64.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/osx/native/libgrpc_csharp_ext.x64.bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/win.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/win/native.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/win/native/grpc_csharp_ext.x64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/win/native/grpc_csharp_ext.x64.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/win/native/grpc_csharp_ext.x86.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/ProtoBuffer/runtimes/win/native/grpc_csharp_ext.x86.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/System.IO.Abstractions.TestingHelpers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/System.IO.Abstractions.TestingHelpers.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/System.IO.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/System.IO.Abstractions.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/bird.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/bird.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/ground.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/ground.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/score.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/score.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/tube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/tube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/Game.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/Game.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Academy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Academy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/ActionMasker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/ActionMasker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Agent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Agent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Demonstration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Demonstration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/DemonstrationRecorder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/DemonstrationRecorder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/DemonstrationStore.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/DemonstrationStore.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FlappyBird.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FlappyBird/BirdController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FlappyBird/BirdController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FlappyBird/FileUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FlappyBird/FileUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FlappyBird/NotificationCenter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FlappyBird/NotificationCenter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FlappyBird/Observer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FlappyBird/Observer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FlappyBird/ScoreFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FlappyBird/ScoreFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FlappyBird/TubeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FlappyBird/TubeController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FlappyBird/TubeFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FlappyBird/TubeFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/AgentAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/AgentAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/AgentInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/AgentInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/AgentInfoActionPair.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/AgentInfoActionPair.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/BrainParameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/BrainParameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/Command.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/Command.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/CustomResetParameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/CustomResetParameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/DemonstrationMeta.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/DemonstrationMeta.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/EngineConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/EngineConfiguration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/EnvironmentParameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/EnvironmentParameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/Header.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/Header.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/Observation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/Observation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/SpaceType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/SpaceType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityMessage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityOutput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityOutput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityRlInitializationInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityRlInitializationInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityRlInitializationOutput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityRlInitializationOutput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityRlInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityRlInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityRlOutput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityRlOutput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityToExternal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityToExternal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityToExternalGrpc.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/CommunicatorObjects/UnityToExternalGrpc.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/GrpcExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/GrpcExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/RpcCommunicator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Grpc/RpcCommunicator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/ICommunicator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/ICommunicator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/ApplierImpl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/ApplierImpl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/BarracudaModelParamLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/BarracudaModelParamLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/GeneratorImpl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/GeneratorImpl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/ModelRunner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/ModelRunner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/TensorApplier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/TensorApplier.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/TensorGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/TensorGenerator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/TensorNames.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/TensorNames.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/TensorProxy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/TensorProxy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/Utils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/Utils/Multinomial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/Utils/Multinomial.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/Utils/RandomNormal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/InferenceBrain/Utils/RandomNormal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/ML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/ML/BirdAgent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/ML/BirdAgent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/ML/FlappyBirdAcademy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/ML/FlappyBirdAcademy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Monitor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Monitor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Policy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Policy/BarracudaPolicy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Policy/BarracudaPolicy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Policy/BehaviorParameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Policy/BehaviorParameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Policy/BrainParameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Policy/BrainParameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Policy/HeuristicPolicy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Policy/HeuristicPolicy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Policy/IPolicy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Policy/IPolicy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Policy/RemotePolicy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Policy/RemotePolicy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/ResetParameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/ResetParameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/CameraSensor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/CameraSensor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/CameraSensorComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/CameraSensorComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/ISensor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/ISensor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/Observation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/Observation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/RayPerceptionSensor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/RayPerceptionSensor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/RayPerceptionSensorComponent2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/RayPerceptionSensorComponent2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/RayPerceptionSensorComponent3D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/RayPerceptionSensorComponent3D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/RayPerceptionSensorComponentBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/RayPerceptionSensorComponentBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/RenderTextureSensor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/RenderTextureSensor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/RenderTextureSensorComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/RenderTextureSensorComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/SensorBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/SensorBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/SensorComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/SensorComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/StackingSensor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/StackingSensor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/VectorSensor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/VectorSensor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/WriteAdapter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Sensor/WriteAdapter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Startup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Timer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Timer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/UnityAgentsException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/UnityAgentsException.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Utilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Utilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/AgentBlue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/AgentBlue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/AgentPurple.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/AgentPurple.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/BallMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/BallMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Checkers_Ball.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Checkers_Ball.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Checkers_Gray.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Checkers_Gray.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Eye.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Eye.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/GrayMiddle.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/GrayMiddle.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/GridMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/GridMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/GridMatBall.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/GridMatBall.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/GridMatFloor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/GridMatFloor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/GridMatHallway.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/GridMatHallway.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/GridMatMoveable.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/GridMatMoveable.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/GridPatternShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/GridPatternShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Headband.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Headband.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/LightGreen.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/LightGreen.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/LightRed.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/LightRed.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/LogoSymbol.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/LogoSymbol.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Net.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Net.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Orange.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Orange.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Outline.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Outline.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Purple.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Purple.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/ShaderOutline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/ShaderOutline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/ShaderRadialGrid.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/ShaderRadialGrid.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Textures/CheckersGray_BC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Textures/CheckersGray_BC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Textures/Checkers_CO.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Textures/Checkers_CO.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Textures/Checkers_NO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Textures/Checkers_NO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Textures/LogoCube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Textures/LogoCube.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Textures/NetAL.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Textures/NetAL.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Textures/UnityLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Textures/UnityLogo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Textures/gridTexture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Textures/gridTexture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/UIDefault.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/UIDefault.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/White.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Materials/Yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Meshes/AgentCube.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Meshes/AgentCube.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Meshes/symbol_circle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Meshes/symbol_circle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Meshes/symbol_star.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Meshes/symbol_star.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Meshes/symbol_tri.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Meshes/symbol_tri.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Meshes/symbol_x.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Meshes/symbol_x.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/AgentCubeBeveled_Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/AgentCubeBeveled_Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/AgentCubeBeveled_Purple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/AgentCubeBeveled_Purple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/AgentCubeWithCamera_Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/AgentCubeWithCamera_Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/AgentCubeWithCamera_Purple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/AgentCubeWithCamera_Purple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/AgentCube_Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/AgentCube_Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/AgentCube_Purple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/AgentCube_Purple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Canvas_Watermark.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Canvas_Watermark.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Directional_Light.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Directional_Light.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Logo-PlaneMesh-BLACK.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Logo-PlaneMesh-BLACK.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Logo-PlaneMesh-GRAY.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Logo-PlaneMesh-GRAY.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Logo-PlaneMesh-WHITE.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Logo-PlaneMesh-WHITE.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Symbol_O.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Symbol_O.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Symbol_Star.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Symbol_Star.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Symbol_Triangle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Symbol_Triangle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Symbol_X.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Prefabs/Symbol_X.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/AdjustTrainingTimescale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/AdjustTrainingTimescale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/Area.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/Area.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/CameraFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/CameraFollow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/FlyCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/FlyCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/GroundContact.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/GroundContact.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/JointDriveController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/JointDriveController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/RayPerception.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/RayPerception.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/RayPerception2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/RayPerception2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/RayPerception3D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/RayPerception3D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/TargetContact.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/SharedAssets/Scripts/TargetContact.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Sprites/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Sprites/background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Sprites/bird_fly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Sprites/bird_fly.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Sprites/ground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Sprites/ground.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Sprites/score.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Sprites/score.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Sprites/tube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Sprites/tube.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/AudioManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/DynamicsManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/EditorSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/InputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/NavMeshLayers.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/NetworkManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/PresetManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/ProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/ProjectVersion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/QualitySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/TagManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/TimeManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/VFXManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/XRSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csharp_timers.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grpc/CommunicatorObjects/UnityRlInput.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1mprRqJOl1LG5pH5VwFcdKFIAyu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

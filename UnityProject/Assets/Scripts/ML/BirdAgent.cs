@@ -4,32 +4,53 @@ using UnityEngine;
 public class BirdAgent : Agent
 {
     private Animator _animator;
-    private bool _canOperate;
     private ResetParameters _resetParameters;
+
     private Rigidbody2D _rigidbody;
-    private int _tubeNum = 1;
 
-
-    public TubeFactory tubeFactory;
+//追踪代号
+    private int _tubeNum;
+    public GameObject tube1;
+    public GameObject tube2;
 
     public override void InitializeAgent()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
-        _canOperate = true;
         var academy = FindObjectOfType<Academy>();
         _resetParameters = academy.resetParameters;
-     
     }
 
     public override void CollectObservations()
     {
         var localPosition = transform.localPosition;
         AddVectorObs(localPosition.y);
-        Debug.Log("寻找的"+_tubeNum);
-        AddVectorObs(tubeFactory.tubeDir[_tubeNum].y);
-        var distance = localPosition.x - tubeFactory.tubeDir[_tubeNum].x;
-        AddVectorObs(distance);
+        if (_tubeNum == 1)
+        {
+            var position = tube1.transform.position;
+            AddVectorObs(position.y);
+            var xValue = position.x - localPosition.x;
+            AddVectorObs(xValue);
+            if (xValue < 0)
+            {
+                _tubeNum = 2;
+                AddReward(1);
+            }
+        }
+        else
+        {
+            var position = tube2.transform.position;
+            AddVectorObs(position.y);
+            var xValue = position.x - localPosition.x;
+            AddVectorObs(xValue);
+            if (xValue < 0)
+            {
+                _tubeNum = 1;
+                AddReward(1);
+            }
+        }
+
+
         AddVectorObs(_rigidbody.velocity.y);
     }
 
@@ -41,16 +62,15 @@ public class BirdAgent : Agent
         var movement = (int) vectorAction[0];
         if (movement == 1)
         {
-            _rigidbody.velocity = new Vector2(0, 5);
+            _rigidbody.velocity = new Vector2(0, 4.5f);
             _animator.SetTrigger("jump");
         }
+
         AddReward(0.01f);
     }
 
     public override void AgentReset()
     {
-        
-        Debug.Log("执行了特工重置");
         transform.position = new Vector3(-0.77f, 0.44f, 0);
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, -14));
         _rigidbody.velocity = Vector2.zero;
@@ -66,27 +86,16 @@ public class BirdAgent : Agent
     }
 
 
-    private void OnTriggerExit2D(Collider2D col)
-    {
-        _tubeNum++;
-        AddReward(1);
-    }
-
-
     private void OnCollisionEnter2D(Collision2D col)
     {
         AddReward(-1);
         _animator.enabled = false;
-        _rigidbody.velocity = new Vector2(0, 0);
-       
-       // BroadcastMessage("OnGameOver");
-      
-       tubeFactory.OnGameOver();
         Done();
     }
+
     public void SetResetParameters()
     {
-       // 这里执行下 重置工厂的操作
-       tubeFactory.Init();
+        tube1.GetComponent<TubeController>().Init();
+        tube2.GetComponent<TubeController>().Init();
     }
 }

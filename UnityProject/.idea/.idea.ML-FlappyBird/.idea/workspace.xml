@@ -29,14 +29,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49ed31b7-e666-4147-a232-034e15e34440" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ML-FlappyBird/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ML-FlappyBird/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ML-FlappyBird/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ML-FlappyBird/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/bird.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/bird.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/tube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/tube.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FlappyBird/Observer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FlappyBird/Observer.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FlappyBird/TubeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FlappyBird/TubeController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FlappyBird/TubeFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FlappyBird/TubeFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ML/BirdAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ML/BirdAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csharp_timers.json" beforeDir="false" afterPath="$PROJECT_DIR$/csharp_timers.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,20 +51,22 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlappyBird/NotificationCenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlappyBird/Observer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlappyBird/BirdController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ML/FlappyBirdAcademy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Demonstration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlappyBird/ScoreFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlappyBird/TubeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlappyBird/TubeFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/bird.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Academy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ML/BirdAgent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/FlappyBird/TubeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FlappyBird/TubeFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FlappyBird/TubeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ML/BirdAgent.cs" />
       </list>
     </option>
@@ -89,10 +92,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19888">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="19888" />
+      <option name="pid" />
       <method v="2" />
     </configuration>
   </component>
@@ -128,85 +131,90 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="像素鸟基本逻辑修改，Agent基本搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="像素鸟基本逻辑修改，Agent基本搭建" />
+    <MESSAGE value="&#10;&#9;1. 管子工厂 finishposx 移动到 管子自身管理中&#10;&#9;2. &#10;工厂的游戏结束回调中  应该清空 队列&#10;&#9;3. &#10;生产的协程改成 while true &#10;&#9;4. &#10;队列 静态下 在管子管理中判断该隐藏的时候 回归池中&#10;&#9;5. &#10;奖励机制可以移动到 触发器与碰撞器中" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;&#9;1. 管子工厂 finishposx 移动到 管子自身管理中&#10;&#9;2. &#10;工厂的游戏结束回调中  应该清空 队列&#10;&#9;3. &#10;生产的协程改成 while true &#10;&#9;4. &#10;队列 静态下 在管子管理中判断该隐藏的时候 回归池中&#10;&#9;5. &#10;奖励机制可以移动到 触发器与碰撞器中" />
   </component>
   <component name="WindowStateProjectService">
     <state x="609" y="163" key="#xdebugger.evaluate" timestamp="1609938067097">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="609" y="163" key="#xdebugger.evaluate/0.0.1707.920@0.0.1707.920" timestamp="1609938067097" />
-    <state x="598" y="303" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1609936679455">
+    <state x="598" y="303" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1610199738994">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="598" y="303" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1707.920@0.0.1707.920" timestamp="1609936679455" />
-    <state width="1663" height="327" key="GridCell.Tab.0.bottom" timestamp="1609938080645">
+    <state x="598" y="303" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1707.920@0.0.1707.920" timestamp="1610199738994" />
+    <state width="1663" height="327" key="GridCell.Tab.0.bottom" timestamp="1609939663513">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1609938080645" />
-    <state width="1663" height="327" key="GridCell.Tab.0.center" timestamp="1609938080644">
+    <state width="1663" height="327" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1609939663513" />
+    <state width="1663" height="327" key="GridCell.Tab.0.center" timestamp="1609939663513">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1609938080644" />
-    <state width="1663" height="327" key="GridCell.Tab.0.left" timestamp="1609938080644">
+    <state width="1663" height="327" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1609939663513" />
+    <state width="1663" height="327" key="GridCell.Tab.0.left" timestamp="1609939663512">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1609938080644" />
-    <state width="1663" height="327" key="GridCell.Tab.0.right" timestamp="1609938080644">
+    <state width="1663" height="327" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1609939663512" />
+    <state width="1663" height="327" key="GridCell.Tab.0.right" timestamp="1609939663513">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1609938080644" />
-    <state width="1663" height="327" key="GridCell.Tab.1.bottom" timestamp="1609938080645">
+    <state width="1663" height="327" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1609939663513" />
+    <state width="1663" height="327" key="GridCell.Tab.1.bottom" timestamp="1609939663513">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1609938080645" />
-    <state width="1663" height="327" key="GridCell.Tab.1.center" timestamp="1609938080645">
+    <state width="1663" height="327" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1609939663513" />
+    <state width="1663" height="327" key="GridCell.Tab.1.center" timestamp="1609939663513">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1609938080645" />
-    <state width="1663" height="327" key="GridCell.Tab.1.left" timestamp="1609938080645">
+    <state width="1663" height="327" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1609939663513" />
+    <state width="1663" height="327" key="GridCell.Tab.1.left" timestamp="1609939663513">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1609938080645" />
-    <state width="1663" height="327" key="GridCell.Tab.1.right" timestamp="1609938080645">
+    <state width="1663" height="327" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1609939663513" />
+    <state width="1663" height="327" key="GridCell.Tab.1.right" timestamp="1609939663513">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1609938080645" />
-    <state width="1663" height="327" key="GridCell.Tab.2.bottom" timestamp="1609938080645">
+    <state width="1663" height="327" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1609939663513" />
+    <state width="1663" height="327" key="GridCell.Tab.2.bottom" timestamp="1609939663513">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.2.bottom/0.0.1707.920@0.0.1707.920" timestamp="1609938080645" />
-    <state width="1663" height="327" key="GridCell.Tab.2.center" timestamp="1609938080645">
+    <state width="1663" height="327" key="GridCell.Tab.2.bottom/0.0.1707.920@0.0.1707.920" timestamp="1609939663513" />
+    <state width="1663" height="327" key="GridCell.Tab.2.center" timestamp="1609939663513">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.2.center/0.0.1707.920@0.0.1707.920" timestamp="1609938080645" />
-    <state width="1663" height="327" key="GridCell.Tab.2.left" timestamp="1609938080645">
+    <state width="1663" height="327" key="GridCell.Tab.2.center/0.0.1707.920@0.0.1707.920" timestamp="1609939663513" />
+    <state width="1663" height="327" key="GridCell.Tab.2.left" timestamp="1609939663513">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.2.left/0.0.1707.920@0.0.1707.920" timestamp="1609938080645" />
-    <state width="1663" height="327" key="GridCell.Tab.2.right" timestamp="1609938080645">
+    <state width="1663" height="327" key="GridCell.Tab.2.left/0.0.1707.920@0.0.1707.920" timestamp="1609939663513" />
+    <state width="1663" height="327" key="GridCell.Tab.2.right" timestamp="1609939663513">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.2.right/0.0.1707.920@0.0.1707.920" timestamp="1609938080645" />
-    <state width="1663" height="327" key="GridCell.Tab.3.bottom" timestamp="1609938080645">
+    <state width="1663" height="327" key="GridCell.Tab.2.right/0.0.1707.920@0.0.1707.920" timestamp="1609939663513" />
+    <state width="1663" height="327" key="GridCell.Tab.3.bottom" timestamp="1609939663513">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.3.bottom/0.0.1707.920@0.0.1707.920" timestamp="1609938080645" />
-    <state width="1663" height="327" key="GridCell.Tab.3.center" timestamp="1609938080645">
+    <state width="1663" height="327" key="GridCell.Tab.3.bottom/0.0.1707.920@0.0.1707.920" timestamp="1609939663513" />
+    <state width="1663" height="327" key="GridCell.Tab.3.center" timestamp="1609939663513">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.3.center/0.0.1707.920@0.0.1707.920" timestamp="1609938080645" />
-    <state width="1663" height="327" key="GridCell.Tab.3.left" timestamp="1609938080645">
+    <state width="1663" height="327" key="GridCell.Tab.3.center/0.0.1707.920@0.0.1707.920" timestamp="1609939663513" />
+    <state width="1663" height="327" key="GridCell.Tab.3.left" timestamp="1609939663513">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.3.left/0.0.1707.920@0.0.1707.920" timestamp="1609938080645" />
-    <state width="1663" height="327" key="GridCell.Tab.3.right" timestamp="1609938080645">
+    <state width="1663" height="327" key="GridCell.Tab.3.left/0.0.1707.920@0.0.1707.920" timestamp="1609939663513" />
+    <state width="1663" height="327" key="GridCell.Tab.3.right" timestamp="1609939663513">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="327" key="GridCell.Tab.3.right/0.0.1707.920@0.0.1707.920" timestamp="1609938080645" />
-    <state x="446" y="193" key="Vcs.Push.Dialog.v2" timestamp="1609854511870">
+    <state width="1663" height="327" key="GridCell.Tab.3.right/0.0.1707.920@0.0.1707.920" timestamp="1609939663513" />
+    <state x="446" y="193" key="Vcs.Push.Dialog.v2" timestamp="1609939612020">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="446" y="193" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1609854511870" />
+    <state x="446" y="193" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1609939612020" />
+    <state x="651" y="373" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610115612143">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="651" y="373" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920@0.0.1707.920" timestamp="1610115612143" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

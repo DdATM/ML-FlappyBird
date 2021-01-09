@@ -39,6 +39,7 @@ public class TubeFactory : MonoBehaviour
     private IEnumerator CreateTube()
     {
         yield return new WaitForSeconds(2);
+        Debug.Log("没停住······················");
         while (true)
         {
             var posY = Random.Range(minCreatePosY, maxCreatePosY);
