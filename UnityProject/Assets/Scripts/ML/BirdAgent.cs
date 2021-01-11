@@ -59,10 +59,11 @@ public class BirdAgent : Agent
         //输入为 离散一个 是否点击
         //判断为 是否撞到柱子，是 done Setreward -1；
         //否 通过柱子 +1 活着+0.1
+     
         var movement = (int) vectorAction[0];
         if (movement == 1)
         {
-            _rigidbody.velocity = new Vector2(0, 4.5f);
+            _rigidbody.velocity = new Vector2(0, 5f);
             _animator.SetTrigger("jump");
         }
 
@@ -81,7 +82,7 @@ public class BirdAgent : Agent
 
     public override float[] Heuristic()
     {
-        if (Input.GetMouseButtonDown(0)) return new float[] {1};
+        if (Input.GetKeyDown(KeyCode.Space)) return new float[] {1};
         return new float[] {0};
     }
 
